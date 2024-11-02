@@ -23,12 +23,13 @@ function Scanner() {
 
   return (
     <>
-      <div className="fixed top-10 w-screen h-screen flex justify-center items-center overflow-auto">
-        <div className='w-[90%] h-[80%] bg-slate-300 flex items-center flex-col rounded-xl gap-[5%]'>
+      <div className="fixed top-10 w-screen h-screen flex justify-center items-center overflow-auto flex-col">
 
-          <p className='mt-8 text-2xl font-bold text-center'>Scan QR Code</p>
+      <p className='mb-3 text-2xl font-bold text-center'>Scan QR Code</p>
 
-          <div className="mt-7 sm:w-[380px] w-[65vw] h-auto">
+        <div className='w-[90%] h-[78%] bg-slate-300 flex items-center flex-col rounded-xl gap-[5%] justify-center'>
+
+          <div className="sm:w-[380px] w-[65vw] h-auto">
           <QrReader
             constraints={{ facingMode: 'environment' }}
             onResult={(result, error) => {
@@ -45,7 +46,7 @@ function Scanner() {
           />
           </div>
 
-          <a id='result' href={data} target="_blank" className="max-w-[85%] min-h-[50px] text-center p-3 rounded-xl border-4 border-red-500 hover:bg-slate-200 break-words font-semibold text-sm sm:-mt-5" onChange={handleResult}>Waiting...</a>
+          <a id='result' href={data} target="_blank" className="max-w-[85%] min-h-[50px] max-h-[200px] overflow-hidden text-center p-3 rounded-xl border-4 border-red-500 hover:bg-slate-200 break-words font-semibold text-sm sm:-mt-5" onChange={handleResult}>Waiting...</a>
         </div>
       </div>
     </>

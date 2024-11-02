@@ -1,4 +1,3 @@
-import React from 'react'
 import Logo from '../assets/Logo-qr.png'
 import { Link } from 'react-router-dom'
 import { Github, FolderGit } from 'lucide-react'

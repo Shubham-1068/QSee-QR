@@ -1,7 +1,5 @@
-import React from 'react'
 import { useState, useEffect } from 'react'
 import { QrReader } from 'react-qr-reader'
-import { ExternalLink } from 'lucide-react'
 
 function Scanner() {
   const [data, setdata] = useState('Waiting...');

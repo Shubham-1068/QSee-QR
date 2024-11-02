@@ -2,7 +2,7 @@ import Navbar from "./Components/Navbar"
 import Body from "./Components/Body"
 import Footer from "./Components/Footer"
 import Scanner from "./Components/Scanner"
-import { BrowserRouter, createBrowserRouter, RouterProvider, Routes } from "react-router-dom"
+import { createBrowserRouter, RouterProvider } from "react-router-dom"
 import Generator from "./Components/Generator"
 
 function App() {

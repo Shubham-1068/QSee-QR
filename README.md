@@ -20,4 +20,4 @@ URL -  https://qsee.vercel.app/
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Author 
-### Shubham Raj (https://github.com/Shubham-1068)
+Shubham Raj (https://github.com/Shubham-1068)

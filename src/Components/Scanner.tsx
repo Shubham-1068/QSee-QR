@@ -50,7 +50,7 @@ function Scanner() {
             />
           </div>
 
-            <a id='link' href={data} target='_blank' className='hidden justify-center items-center font-semibold p-1 px-4 bg-green-700 rounded-lg text-white -mb-4'>Visit<ExternalLink size={20} fontWeight={"bold"} /></a>
+            <a id='link' href={data} target='_blank' className='hidden justify-center items-center font-semibold p-1 px-4 bg-green-700 rounded-lg text-white md:-mt-2 md:mb-2'>Visit<ExternalLink size={20} fontWeight={"bold"} /></a>
 
           <div id='result' className="max-w-[85%] min-h-[42px] max-h-[200px] overflow-hidden text-center p-2 rounded-xl border-[3px] border-red-500 break-words font-semibold text-sm sm:-mt-5" onChange={handleResult}>{data}</div>
         </div>

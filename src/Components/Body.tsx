@@ -10,7 +10,7 @@ function Body() {
 
                 <Link to={'/scanner'} className='md:w-1/2 w-full h-full'>
                 <div className="h-full w-full rounded-xl flex flex-col justify-center items-center hover:bg-slate-300 cursor-pointer">
-                    <img src="https://uxwing.com/wp-content/themes/uxwing/download/computers-mobile-hardware/scan-icon.png" alt="scanner" className='md:h-28 h-24 bg-slate-300 p-3 rounded-xl' />
+                    <img src="https://uxwing.com/wp-content/themes/uxwing/download/computers-mobile-hardware/scan-icon.png" alt="scanner" className='md:h-28 h-24 border-4 border-[#FF5722] p-3 rounded-xl' />
 
                     <p className='mt-3 text-lg font-semibold'>Scanner</p>
                 </div>
@@ -24,7 +24,7 @@ function Body() {
                 
                 <Link to={'/generator'} className='md:w-1/2 w-full h-full'>
                 <div className="w-full h-full rounded-xl flex-col flex justify-center items-center hover:bg-slate-300 cursor-pointer">
-                <img src="https://uxwing.com/wp-content/themes/uxwing/download/e-commerce-currency-shopping/qr-code-scan-icon.png" alt="generator" className='md:h-28 h-24 bg-slate-300 p-3 rounded-xl' />
+                <img src="https://uxwing.com/wp-content/themes/uxwing/download/e-commerce-currency-shopping/qr-code-scan-icon.png" alt="generator" className='md:h-28 h-24 border-4 border-[#FF5722] p-3 rounded-xl' />
 
                 <p className='mt-3 text-lg font-semibold'>Generator</p>
                 </div>
